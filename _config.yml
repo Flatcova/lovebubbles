@@ -20,6 +20,8 @@
 
 title: Love Bubbles
 email: lovebubbles@gmail.com
+snipcart_key: OWRjMjBkYTItNGFhYS00ZmYyLWI2ZTktNjU4NWYzOTk4MTBhNjM4MTg1OTU0ODI2ODgyNDk3
+snipcart_currency: "usd"
 description: >- # this means to ignore newlines until "baseurl:"
   Pagina de venta de productos variados..
 baseurl: "" # the subpath of your site, e.g. /blog
