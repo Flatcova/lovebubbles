@@ -1,0 +1,106 @@
+<div class="wrapper light-wrapper">
+    <div class="container inner">
+      <div class="grid grid-view boxed">
+        <div class="tiles">
+          <div class="row isotope">
+
+            {% for product in site.products %}
+            
+            <div class="item item-detailed grid-sizer col-md-6 col-lg-4">
+                <div class="box bg-white shadow p-30">
+                  <figure class="main rounded mb-30">
+                    <div class="item-detailed-image"><img src="style/images/art/s1.jpg" alt="" /><img src="style/images/art/s1-2.jpg" alt="" /></div>
+                    <a href="#" class="hover-icon-first" data-tip="Add to Wishlist"><i class="jam jam-heart"></i></a>
+                    <a href="#" class="hover-icon-second" data-tip="Add to cart"><i class="jam jam-shopping-cart"></i></a>
+                    {% if product.new %}
+                    <span class="item-label bg-meander">New!</span>
+                    {% elsif product.onsale %}
+                    <span class="item-label bg-rose">Sale!</span>
+                    {% endif %} 
+                  </figure>
+                  <div class="item-content">
+                    <h2 class="post-title mb-10"><a href="#">{{product.name}}</a></h2>
+                    <div class="price mb-0"><del><span class="amount">$55.00</span></del> <ins><span class="amount">$45.00</span></ins></div>
+                    <span class="ratings four"></span>
+                  </div>
+                  <!-- /.item-content -->
+                </div>
+                <!-- /.box -->
+              </div>
+              <!-- /.item -->
+                <!-- {% include product.html %} -->
+            {% endfor %}
+
+            <!-- <div class="item item-detailed grid-sizer col-md-6 col-lg-4">
+              <div class="box bg-white shadow p-30">
+                <figure class="main rounded mb-30">
+                  <div class="item-detailed-image"><img src="style/images/art/s1.jpg" alt="" /><img src="style/images/art/s1-2.jpg" alt="" /></div>
+                  <a href="#" class="hover-icon-first" data-tip="Add to Wishlist"><i class="jam jam-heart"></i></a>
+                  <a href="#" class="hover-icon-second" data-tip="Add to cart"><i class="jam jam-shopping-cart"></i></a>
+                  <span class="item-label bg-rose">Sale!</span>
+                </figure>
+                <div class="item-content">
+                  <h2 class="post-title mb-10"><a href="#">Shopping Bag</a></h2>
+                  <div class="price mb-0"><del><span class="amount">$55.00</span></del> <ins><span class="amount">$45.00</span></ins></div>
+                  <span class="ratings four"></span>
+                </div>
+                /.item-content
+              </div>
+              /.box
+            </div>
+            /.item
+            <div class="item item-detailed grid-sizer col-md-6 col-lg-4">
+              <div class="box bg-white shadow p-30">
+                <figure class="main rounded mb-30">
+                  <div class="item-detailed-image"><img src="style/images/art/s2.jpg" alt="" /><img src="style/images/art/s2-2.jpg" alt="" /></div>
+                  <a href="#" class="hover-icon-first" data-tip="Add to Wishlist"><i class="jam jam-heart"></i></a>
+                  <a href="#" class="hover-icon-second" data-tip="Add to cart"><i class="jam jam-shopping-cart"></i></a>
+                </figure>
+                <div class="item-content">
+                  <h2 class="post-title mb-10"><a href="#">Paperback Book</a></h2>
+                  <div class="price mb-0"><span class="amount">$45.00</span></div>
+                  <span class="ratings four"></span>
+                </div>
+                /.item-content
+              </div>
+              /.box
+            </div>
+            /.item
+            <div class="item item-detailed grid-sizer col-md-6 col-lg-4">
+              <div class="box bg-white shadow p-30">
+                <figure class="main rounded mb-30">
+                  <div class="item-detailed-image"><img src="style/images/art/s3.jpg" alt="" /><img src="style/images/art/s3-2.jpg" alt="" /></div>
+                  <a href="#" class="hover-icon-first" data-tip="Add to Wishlist"><i class="jam jam-heart"></i></a>
+                  <a href="#" class="hover-icon-second" data-tip="Add to cart"><i class="jam jam-shopping-cart"></i></a>
+                  <span class="item-label bg-meander">New!</span>
+                </figure>
+                <div class="item-content">
+                  <h2 class="post-title mb-10"><a href="#">Clipboard Office</a></h2>
+                  <div class="price mb-0"><span class="amount">$45.00</span></div>
+                  <span class="ratings four"></span>
+                </div>
+                /.item-content
+              </div>
+              /.box
+            </div>
+            /.item -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.tiles -->
+      </div>
+      <!-- /.grid -->
+      <div class="space30"></div>
+      <div class="pagination text-center">
+        <ul>
+          <li><a href="#" class="pl-0"><i class="jam jam-arrow-left"></i></a></li>
+          <li class="active"><a href="#"><span>1</span></a></li>
+          <li><a href="#"><span>2</span></a></li>
+          <li><a href="#"><span>3</span></a></li>
+          <li><a href="#" class="pr-0"><i class="jam jam-arrow-right"></i></a></li>
+        </ul>
+      </div>
+      <!-- /.pagination -->
+    </div>
+    <!-- /.container -->
+  </div>

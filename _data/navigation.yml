@@ -1,0 +1,20 @@
+- name: Productos
+  link: /products.html
+  new_window: false
+  highlight: false
+- name: Nuestra Historia
+  link: /about.html
+  new_window: false
+  highlight: false
+- name: Contacto
+  link: /contact.html
+  new_window: false
+  highlight: false
+- name: Love Bubbles
+  link: /blog.html
+  new_window: false
+  highlight: false
+- name: FAQ
+  link: /faq.html
+  new_window: false
+  highlight: false

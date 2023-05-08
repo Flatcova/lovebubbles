@@ -6,7 +6,9 @@ description_markdown: >-
   this majestic beast and feel all your problems float away.
   Slim Fit, 5oz 100% Cotton T-Shirt.
 garment_type:
-price: '9.00'
+price: 9.99
+new: false
+onsale: false
 sku: deer
 stock: 10
 sizes:
