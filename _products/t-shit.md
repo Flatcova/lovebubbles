@@ -1,6 +1,7 @@
 ---
 identifier: TS-001-01
 name: Sacha the Deer
+image: /assets/images/concept/concept5.png
 description_markdown: >-
   Sacha's elegant antlers have never been seen on such a beautiful t-shirt. Wear
   this majestic beast and feel all your problems float away.

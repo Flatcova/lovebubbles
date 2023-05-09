@@ -1,5 +1,5 @@
 - name: Productos
-  link: /products.html
+  link: /products/
   new_window: false
   highlight: false
 - name: Nuestra Historia

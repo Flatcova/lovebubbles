@@ -1,6 +1,12 @@
 ---
-permalink: /products.html
 layout: default
+permalink: /products/
+pagination: 
+  enabled: true
+  collection: products
+  sort_field: 'name'
+  sort_reverse: false
+  per_page: 2
 ---
 
 <div class="wrapper light-wrapper page-title-wrapper">

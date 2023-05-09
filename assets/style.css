@@ -6378,6 +6378,9 @@ footer.inverse-text address {
         border-top-left-radius: 0.2rem !important;
         border-top-right-radius: 0.2rem !important;
     }
+    .navbar {
+        z-index: 1008;
+    }
     .navbar-other {
         padding-left: 3px;
     }
