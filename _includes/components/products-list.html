@@ -51,7 +51,7 @@
         {% if paginator.page_trail %}
           {% for trail in paginator.page_trail %}
           <li {% if page.url == trail.path %} class="active" {% endif %}>
-            <a href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}">
+            <a href="{{ trail.path | prepend: site.url | replace: '//', '/' }}">
               <span>{{ trail.num }}</span>
             </a>
           </li>
